@@ -21,7 +21,7 @@ export default function Home() {
     <div>
       <ul>
         {posts?.map((post) => (
-          <li>
+          <li key={post.id}>
             <Link href={`/${post.slug}`}>
               <a href={`/${post.slug}`}>
                 <h2>{post.title}</h2>
