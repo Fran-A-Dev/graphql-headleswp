@@ -13,7 +13,7 @@ const ContactPage = () => {
     <React.Fragment>
       <p>
         Thank you for submitting this form. Someone should get back to you
-        within 24-48 hours.
+        within 24-48 hours. Climb on!
       </p>
 
       <button
@@ -66,13 +66,12 @@ const ContactPage = () => {
   return (
     <div className="container">
       <Head>
-        <title>NextJS + Netlify Forms Example</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Fran-Netlify Forms Example</title>
       </Head>
       <h1>Contact Us</h1>
 
       <main>{formVisible ? ContactForm : ConfirmationMessage}</main>
-      <footer>NextJS + Netlify Forms Example by Monica Powell</footer>
+      <footer>NextJS + Netlify Forms Example by Fran_The_Dev</footer>
       <style jsx global>
         {`
           html,
