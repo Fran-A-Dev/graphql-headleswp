@@ -33,3 +33,14 @@ export default function Home() {
     </div>
   );
 }
+
+export async function getStaticProps() {
+  const res = await fetch("https://graceerixon.wpengine.com/graphql");
+  const posts = await res.json();
+
+  return {
+    props: {
+      posts,
+    },
+  };
+}
