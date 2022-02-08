@@ -19,7 +19,6 @@ export default function Home() {
 
   return (
     <div>
-      <h1>Hello Wolrd</h1>
       <ul>
         {posts?.map((post) => (
           <li key={post.id}>
