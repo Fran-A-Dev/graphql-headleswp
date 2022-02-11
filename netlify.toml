@@ -2,6 +2,3 @@
   # runs Cypress tests against the deployed URL
   package = "netlify-plugin-cypress"
 
-[build]
-command = "npm install && npm build"
-publish = "build"
